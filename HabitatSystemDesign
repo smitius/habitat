@@ -109,3 +109,45 @@ Proposed System Architecture: (Habitat)
 │ └─────────────┘     └───────────────┘     └──────────────┘     └───────────────┘ │
 │                                                                                  │
 └──────────────────────────────────────────────────────────────────────────────────┘
+
+Key Components:
+
+1. **Intent-Based Definition Layer**
+This is where users express desired outcomes without specifying implementation details. Components include application definitions, resource intents, compliance policies, and architecture preferences.
+
+2. Intelligence Layer
+Translates high-level intents into actionable plans:
+
+        Intent Interpreter: Analyzes requirements and resolves dependencies
+        Optimization Engine: Determines the most efficient implementation strategy, considering workload characteristics and sustainability goals
+        Translator: Converts optimized plans into concrete resource templates
+
+3. Orchestration Layer
+Manages the operational aspects of the infrastructure:
+
+        Fleet Manager: Schedules workloads and scales resources
+        Architecture Router: Routes tasks to appropriate hardware architectures
+        Observability Integrator: Collects and analyzes performance metrics
+
+4. Infrastructure Adapter Layer
+Abstracts the differences between underlying infrastructure options:
+
+        Compute Provisioner: Creates and manages compute resources
+        Network Configurator: Sets up communication pathways
+        Storage Manager: Provisions and configures data storage
+
+5. Infrastructure Layer
+The actual physical and virtualized resources:
+
+        Compute: Diverse processor architectures (ARM64, x86_64, etc.)
+        Network: Software-defined networks, load balancers, and physical connections
+        Storage: Block storage, object stores, and database volumes
+
+6. Application Components
+The deployed application services running on the infrastructure, with different architecture affinities.
+
+7. Data & Feedback Flow
+Shows how operational data cycles back to improve future decisions.
+
+Architecture enables continuous optimization with heterogeneous resources managed transparently based on high-level intent declarations.
+
