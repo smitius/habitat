@@ -17,7 +17,7 @@ Operational excellence is a commitment to building software correctly while cons
     *   Follow general coding principles: code should be logical, maintainable, and tested.
     *   Establish and follow team coding guidelines, which tailor coding standards to the team's needs and are used in the code review process. Consistency of style and adherence to standards across a system reduces long-term maintenance costs.
     *   Code should be well-documented. Document the 'Why' (motivation, problem solved), 'What' (function purpose, side effects, higher-level view), and 'How' (design level) of your code. Assume language fluency, but do not assume prior knowledge about your program. Fix missing or incomplete documentation. Avoid documenting the obvious or simply translating code into English; use good variable names instead.
-    *   For Java, follow common coding recommendations, prioritizing readability. Consistency in indentation is crucial. Always use brackets for single statement if/else/for/while. Alignment that enhances readability is encouraged. For C++, packages must live in Brazil and use the standard build system.
+    *   For Java, follow common coding recommendations, prioritizing readability. Consistency in indentation is crucial. Always use brackets for single statement if/else/for/while. Alignment that enhances readability is encouraged. For C++, packages must use the standard build system.
     *   Ensure identifiers (customer visible or internal) are larger than reasonably required.
     *   Intentionally set appropriate retry and socket timeout configuration for all SDK usage.
 
