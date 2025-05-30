@@ -6,7 +6,7 @@ Here's what operations concepts mean to me:
 **Foundational Principles of Operational Excellence**
 Operational excellence at any organization begins with a relentless **focus on the customer**. It involves building software correctly and consistently delivering a great customer experience. A core principle is **end-to-end ownership**, where team members take personal responsibility for the quality and reliability of their work from design through operation. Embedding **automation and quality** throughout the development lifecycle helps prevent issues before they impact customers. When issues do occur, the focus is on minimizing their impact and continuously improving monitoring to quickly diagnose and resolve problems.
 
-**Key Operational Areas for a Startup**
+**Key Operational Areas for a New Organization**
 
 *   **Reliability, Availability, and Resilience**
     *   Operations means striving to **avoid unplanned downtime** and designing systems to be **highly available**.
