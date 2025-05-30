@@ -57,7 +57,7 @@ Operational excellence is a commitment to building software correctly while cons
     *   Regularly perform capacity management reviews (at least monthly) to review demand, needed infrastructure, risks, and mitigation plans.
     *   Operational tools must be treated as production software. Changes to operational tools should be code reviewed and deployed through a pipeline. Tools commonly used to make changes to production may require the 2-person rule or allowance listing for single person operations.
 
-7.  **The Ten Commandments of Habitat Availability:** Adhere to these inviolable rules to ensure high availability:
+7.  **The Ten Rules of System Availability:** Adhere to these inviolable rules to ensure high availability:
     *   Do not damage multiple Regions or locations at the same time by deploying all at once.
     *   Deploy changes frequently and gradually.
     *   Roll back liberally if a problem occurs after deployment.
