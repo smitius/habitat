@@ -1,7 +1,6 @@
 **Ops Guide: Operational Best Practices**
 This guide summarizes best practices and principles to help teams effectively manage their workloads and applications operationally.
 
-**Introduction: The Culture of Operational Excellence**
 Operational Excellence (OE) is our commitment to building software correctly while consistently delivering a great customer experience. It is a culture focused on delivering software that is scalable, reliable, resilient, frugal, efficient, and performant, which in turn allows teams to spend more time building new features and less time on maintenance and fighting fires. Operational Excellence is fundamental to Customer Obsession. Deferring OE can lead to issues that become overwhelming. We bake OE into every part of the development lifecycle to achieve continuous improvement.
 
 **Key Principles of Operational Excellence**
